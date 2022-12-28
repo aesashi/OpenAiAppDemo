@@ -4,8 +4,7 @@ import FontIcon from 'react-native-vector-icons/FontAwesome5'
 import { colors } from 'theme'
 
 // stack navigators
-import { HomeNavigator, ProfileNavigator, ConnectNavigator } from '../stacks'
-
+import { HomeNavigator, ProfileNavigator, ConnectNavigator, TextGenerator } from '../stacks'
 const Tab = createBottomTabNavigator()
 
 const TabNavigator = () => {
@@ -65,6 +64,20 @@ const TabNavigator = () => {
         component={ProfileNavigator}
         options={{
           tabBarLabel: 'Profile',
+          tabBarIcon: ({ color, size }) => (
+            <FontIcon
+              name="user"
+              color={color}
+              size={size}
+            />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Gpt-3"
+        component={TextGenerator}
+        options={{
+          tabBarLabel: 'Gpt-3',
           tabBarIcon: ({ color, size }) => (
             <FontIcon
               name="user"

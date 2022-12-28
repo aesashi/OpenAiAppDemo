@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reactnative-expo-firebase-boilerplate-v2",
-    "slug": "reactnative-expo-firebase-boilerplate-v2",
+    "name": "OpenAiApp",
+    "slug": "OpenAiApp",
     "privacy": "public",
     "platforms": [
       "ios",

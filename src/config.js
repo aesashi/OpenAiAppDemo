@@ -1,14 +1,13 @@
-const defaultAvatar = 'https://firebasestorage.googleapis.com/v0/b/expo-boilerplate-v2.appspot.com/o/icon.png?alt=media&token=505f30e6-6702-410a-84e7-f66b3ff60daf'
+const defaultAvatar = 'https://firebasestorage.googleapis.com/v0/b/openaiapp-90730.appspot.com/o/avatar%2Fservice_3.png?alt=media&token=0b0ff159-62c7-4978-8614-14218394482e'
 
 const firebaseKey = {
-  apiKey: "AIzaSyAbynvh81TkAmQE2lBY8JEDOVpNaHZOozU",
-  authDomain: "expo-boilerplate-v2.firebaseapp.com",
-  projectId: "expo-boilerplate-v2",
-  storageBucket: "expo-boilerplate-v2.appspot.com",
-  messagingSenderId: "852442919227",
-  appId: "1:852442919227:web:313aba2cd455b34701871e",
-  measurementId: "G-1894ZG59D5"
-}
+  apiKey: "AIzaSyBEBALVnjGNqi-6EYAcibL0qwlX9yh74aI",
+  authDomain: "openaiapp-90730.firebaseapp.com",
+  projectId: "openaiapp-90730",
+  storageBucket: "openaiapp-90730.appspot.com",
+  messagingSenderId: "856239401172",
+  appId: "1:856239401172:web:353c237123ad8d0988b341"
+};
 
 const eulaLink = 'https://github.com/kiyohken2000/ReactNative-Expo-Firebase-Boilerplate-v2'
 
